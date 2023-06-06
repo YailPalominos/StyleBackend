@@ -1,4 +1,8 @@
-﻿namespace StyleFrontend.Modelos
+﻿using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace StyleBackend.Models.Modelos
 {
     public class Usuario
     {
@@ -8,11 +12,11 @@
         public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
         public string Pais { get; set; }
-        public string Estado { get; set; }
-        public string FechaNacimiento { get; set; }
+        public DateTime FechaNacimiento { get; set; }
         public string Amigos { get; set; }
+        public DateTime FechaRegistro { get; set; }
         public string CorreoElectronico { get; set; }
-        public string FechaRegistro { get; set; }
+        public char Sexo { get; set; }
 
         public Usuario()
         {
@@ -22,13 +26,13 @@
             NombreUsuario = "";
             Contraseña = "";
             Pais = "";
-            Estado = "";
-            FechaNacimiento = "";
+            FechaNacimiento = new DateTime();
             Amigos = "";
+            FechaRegistro = new DateTime();
             CorreoElectronico = "";
-            FechaRegistro = "";
+            Sexo = 'N';
         }
-
     }
+     
    
 }

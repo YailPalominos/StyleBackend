@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "72Z8gU2Nzfml+7YDkBDKI3yiGJtSRa4Sxz/4ittgWY+WLAFEtQJQgw56SIMMeFxH6XEXljkmlJipVQO3AAcOPg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yailp\\OneDrive\\Documentos\\GitHub\\StyleBackend\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yailp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\yailp\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\yailp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\yailp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}
